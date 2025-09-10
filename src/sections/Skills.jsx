@@ -36,7 +36,7 @@ export default function Skills() {
             {Object.entries(SKILLS).map(([group, items]) => (
                 <Card
                 key={group}
-                className="hover:shadow-xl transition-all border-border/80 bg-card/80"
+                className="hover:shadow-xl hover:shadow-accent-foreground/50 transition-all border-border/80 bg-card/50"
                 >
                 <CardHeader className="pb-2 md:pb-3">
                     {/* Bigger title for emphasis */}
